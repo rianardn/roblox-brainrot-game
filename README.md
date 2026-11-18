@@ -1,5 +1,9 @@
 # Brainrot Bay — a Roblox brainrot game
 
+![Brainrot Bay concept art](concept.jpg)
+
+*Concept art — what the game is designed to look like. This is a mockup, not a screenshot of the game running. The real screenshots come from Roblox Studio (see below).*
+
 A 3D brainrot game for make.fun's "Make the best AI Roblox brainrot game" bounty (roblox-brainrot-01). Absurd
 characters wash up on the beach around a tropical bay; you buy one, carry it home on your head, and place it on
 your base, where it earns money every second. Rarer ones earn more. Other players can steal yours unless your
@@ -33,7 +37,7 @@ of Common, Rare, Epic, Legendary and Mythic, with Golden (x2) and Diamond (x4) m
   the bases (placement, locking, stealing, expansion), the spawner (pads, models, carrying) and the tide.
   `src/client/` holds the HUD, the keybinds and the feedback effects. State lives in one place on the server and
   reaches the HUD in a single `StateUpdate` remote.
-- `screenshots/` holds three captures; one of them is the thumbnail uploaded for the game on Roblox.
+- `screenshots/` currently holds the kit starter's three placeholder images (a grey square) — they are NOT the game. They are replaced with real captures of the game running in Roblox Studio before submitting; one of them becomes the thumbnail uploaded for the game on Roblox.
   `PLAY.json` names the published place (filled in once the game is published from Studio).
 - `TOUR.json` is the optional tour: for each screenshot, the keys that bring the game to that screen.
 
